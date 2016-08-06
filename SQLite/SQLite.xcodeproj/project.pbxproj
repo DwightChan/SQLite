@@ -22,6 +22,7 @@
 		8386D6B51D5610EC00C7B98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8386D6B81D5610ED00C7B98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8386D6BA1D5610ED00C7B98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8386D6C01D56141E00C7B98F /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				8386D6B51D5610EC00C7B98F /* Assets.xcassets */,
 				8386D6B71D5610ED00C7B98F /* LaunchScreen.storyboard */,
 				8386D6BA1D5610ED00C7B98F /* Info.plist */,
+				8386D6C01D56141E00C7B98F /* Bridge.h */,
 			);
 			path = SQLite;
 			sourceTree = "<group>";
