@@ -14,6 +14,7 @@
 		8386D6B91D5610ED00C7B98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8386D6B71D5610ED00C7B98F /* LaunchScreen.storyboard */; };
 		8386D6C31D5619AA00C7B98F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8386D6C21D5619AA00C7B98F /* libsqlite3.0.tbd */; };
 		8386D6C51D5622AD00C7B98F /* CDH_SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8386D6C41D5622AD00C7B98F /* CDH_SQLiteManager.swift */; };
+		8386D6C71D5631C700C7B98F /* CDH_Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8386D6C61D5631C700C7B98F /* CDH_Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		8386D6C11D56156C00C7B98F /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
 		8386D6C21D5619AA00C7B98F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		8386D6C41D5622AD00C7B98F /* CDH_SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_SQLiteManager.swift; sourceTree = "<group>"; };
+		8386D6C61D5631C700C7B98F /* CDH_Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				8386D6B71D5610ED00C7B98F /* LaunchScreen.storyboard */,
 				8386D6BA1D5610ED00C7B98F /* Info.plist */,
 				8386D6C11D56156C00C7B98F /* Bridge.h */,
+				8386D6C61D5631C700C7B98F /* CDH_Student.swift */,
 			);
 			path = SQLite;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8386D6C51D5622AD00C7B98F /* CDH_SQLiteManager.swift in Sources */,
+				8386D6C71D5631C700C7B98F /* CDH_Student.swift in Sources */,
 				8386D6B11D5610EC00C7B98F /* ViewController.swift in Sources */,
 				8386D6AF1D5610EC00C7B98F /* AppDelegate.swift in Sources */,
 			);

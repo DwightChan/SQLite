@@ -34,14 +34,30 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQs-Qv-O7G">
                                 <rect key="frame" x="130" y="147" width="60" height="30"/>
                                 <state key="normal" title="插入数据"/>
+                                <connections>
+                                    <action selector="insertData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VdA-gp-2Bx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FGR-FJ-Sdw">
                                 <rect key="frame" x="130" y="185" width="60" height="30"/>
                                 <state key="normal" title="更新数据"/>
+                                <connections>
+                                    <action selector="updateData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IB4-Y4-dWG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svn-mm-0rk">
                                 <rect key="frame" x="130" y="223" width="60" height="30"/>
                                 <state key="normal" title="删除数据"/>
+                                <connections>
+                                    <action selector="deleteData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jMq-7D-d9C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qY-LA-7hJ">
+                                <rect key="frame" x="124" y="291" width="73" height="30"/>
+                                <state key="normal" title="查询数据"/>
+                                <connections>
+                                    <action selector="queryData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WKQ-R7-y1C"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
