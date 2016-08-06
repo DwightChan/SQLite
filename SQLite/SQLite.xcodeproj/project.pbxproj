@@ -15,6 +15,7 @@
 		8386D6C31D5619AA00C7B98F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8386D6C21D5619AA00C7B98F /* libsqlite3.0.tbd */; };
 		8386D6C51D5622AD00C7B98F /* CDH_SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8386D6C41D5622AD00C7B98F /* CDH_SQLiteManager.swift */; };
 		8386D6C71D5631C700C7B98F /* CDH_Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8386D6C61D5631C700C7B98F /* CDH_Student.swift */; };
+		8386D6CB1D56570D00C7B98F /* SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8386D6CA1D56570D00C7B98F /* SQLiteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8386D6C21D5619AA00C7B98F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		8386D6C41D5622AD00C7B98F /* CDH_SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_SQLiteManager.swift; sourceTree = "<group>"; };
 		8386D6C61D5631C700C7B98F /* CDH_Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_Student.swift; sourceTree = "<group>"; };
+		8386D6CA1D56570D00C7B98F /* SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				8386D6AE1D5610EC00C7B98F /* AppDelegate.swift */,
 				8386D6B01D5610EC00C7B98F /* ViewController.swift */,
 				8386D6C41D5622AD00C7B98F /* CDH_SQLiteManager.swift */,
+				8386D6CA1D56570D00C7B98F /* SQLiteManager.swift */,
 				8386D6B21D5610EC00C7B98F /* Main.storyboard */,
 				8386D6B51D5610EC00C7B98F /* Assets.xcassets */,
 				8386D6B71D5610ED00C7B98F /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			files = (
 				8386D6C51D5622AD00C7B98F /* CDH_SQLiteManager.swift in Sources */,
 				8386D6C71D5631C700C7B98F /* CDH_Student.swift in Sources */,
+				8386D6CB1D56570D00C7B98F /* SQLiteManager.swift in Sources */,
 				8386D6B11D5610EC00C7B98F /* ViewController.swift in Sources */,
 				8386D6AF1D5610EC00C7B98F /* AppDelegate.swift in Sources */,
 			);
