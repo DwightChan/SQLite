@@ -12,6 +12,8 @@
 		8386D6B41D5610EC00C7B98F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8386D6B21D5610EC00C7B98F /* Main.storyboard */; };
 		8386D6B61D5610EC00C7B98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8386D6B51D5610EC00C7B98F /* Assets.xcassets */; };
 		8386D6B91D5610ED00C7B98F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8386D6B71D5610ED00C7B98F /* LaunchScreen.storyboard */; };
+		8386D6C31D5619AA00C7B98F /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8386D6C21D5619AA00C7B98F /* libsqlite3.0.tbd */; };
+		8386D6C51D5622AD00C7B98F /* CDH_SQLiteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8386D6C41D5622AD00C7B98F /* CDH_SQLiteManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +24,9 @@
 		8386D6B51D5610EC00C7B98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8386D6B81D5610ED00C7B98F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8386D6BA1D5610ED00C7B98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8386D6C01D56141E00C7B98F /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		8386D6C11D56156C00C7B98F /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		8386D6C21D5619AA00C7B98F /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		8386D6C41D5622AD00C7B98F /* CDH_SQLiteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDH_SQLiteManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8386D6C31D5619AA00C7B98F /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,6 +44,7 @@
 		8386D6A21D5610EC00C7B98F = {
 			isa = PBXGroup;
 			children = (
+				8386D6C21D5619AA00C7B98F /* libsqlite3.0.tbd */,
 				8386D6AD1D5610EC00C7B98F /* SQLite */,
 				8386D6AC1D5610EC00C7B98F /* Products */,
 			);
@@ -57,11 +63,12 @@
 			children = (
 				8386D6AE1D5610EC00C7B98F /* AppDelegate.swift */,
 				8386D6B01D5610EC00C7B98F /* ViewController.swift */,
+				8386D6C41D5622AD00C7B98F /* CDH_SQLiteManager.swift */,
 				8386D6B21D5610EC00C7B98F /* Main.storyboard */,
 				8386D6B51D5610EC00C7B98F /* Assets.xcassets */,
 				8386D6B71D5610ED00C7B98F /* LaunchScreen.storyboard */,
 				8386D6BA1D5610ED00C7B98F /* Info.plist */,
-				8386D6C01D56141E00C7B98F /* Bridge.h */,
+				8386D6C11D56156C00C7B98F /* Bridge.h */,
 			);
 			path = SQLite;
 			sourceTree = "<group>";
@@ -92,6 +99,7 @@
 		8386D6A31D5610EC00C7B98F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CDH_;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = CDHao;
@@ -137,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8386D6C51D5622AD00C7B98F /* CDH_SQLiteManager.swift in Sources */,
 				8386D6B11D5610EC00C7B98F /* ViewController.swift in Sources */,
 				8386D6AF1D5610EC00C7B98F /* AppDelegate.swift in Sources */,
 			);
@@ -257,6 +266,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chendehao.SQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SQLite/Bridge.h;
 			};
 			name = Debug;
 		};
@@ -268,6 +278,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chendehao.SQLite;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SQLite/Bridge.h;
 			};
 			name = Release;
 		};
@@ -290,6 +301,7 @@
 				8386D6BF1D5610ED00C7B98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
