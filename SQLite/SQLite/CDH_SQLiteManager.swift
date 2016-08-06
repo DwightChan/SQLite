@@ -4,7 +4,7 @@
 //
 //  Created by chendehao on 16/8/6.
 //  Copyright © 2016年 CDHao. All rights reserved.
-//
+//  使用 FMDB 封装的 SQLite 数据库的方法
 
 import UIKit
 

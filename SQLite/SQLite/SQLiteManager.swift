@@ -4,7 +4,7 @@
 //
 //  Created by chendehao on 16/8/7.
 //  Copyright © 2016年 CDHao. All rights reserved.
-//  使用 C 语言的函数封装的数据库的方法
+//  使用 C 语言的函数封装的 SQLite 数据库的方法
 
 import UIKit
 
